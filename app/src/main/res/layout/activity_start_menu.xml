@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startmenu"
+    tools:context=".Start_menu">
+
+    <TextView
+        android:id="@+id/starttitulo"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="103dp"
+        android:fontFamily="monospace"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+
+
+    <Button
+        android:id="@+id/start_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="238dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/starttitulo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="monospace"
+        android:onClick="StartGame"
+        android:text="Começar Jogo"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="232dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="343dp"
+        android:fontFamily="monospace"
+        android:onClick="HowToPlay"
+        android:text="Como Jogar"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+
+</RelativeLayout>

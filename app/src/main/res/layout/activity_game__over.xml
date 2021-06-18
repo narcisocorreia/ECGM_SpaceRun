@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameover"
+    tools:context=".Game_Over">
+
+    <TextView
+        android:id="@+id/gameovertext"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/GameOver"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="140dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="338dp"
+        android:onClick="TryAgain"
+        android:text="Tenta Outra Vez"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

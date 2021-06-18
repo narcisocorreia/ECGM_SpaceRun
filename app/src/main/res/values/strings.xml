@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ECGM SpaceRun</string>
+    <string name="titulo">ECGM\nSpace Run</string>
+    <string name="GameOver">Fim do Jogo</string>
+    <string name="Intro">
+                                A nossa missao é anda pelo espaço a procura \n dos ECGM perdidos pelo espaço.
+                              \nExistem varios inimigos pelo espaço para te\n impedirem de apanhar pos ECGM por isso segue as seguintes intruções\n
+                                para te poderes ivitar os inimigos e concluir a tua missão.
+    </string>
+    <string name="howtoplay">
+                                Aproxima a tua mao do telemovel para a tua nave subir .\n
+                                O teu objectivo e apanhar o maior numero de ECGMs possiveis.\n
+                                Cuidado com os inimigos, so tens 3 vidas.\n
+    </string>
+
+    <string name="missao">
+                                A nossa batalha esta espalhada por o universo inteiro por isso\n
+                                existem locais onde podes combater contra inimigos difenretes\n
+                                e comandar uma nave diferente.
+                                Neste momento tens disponiveis duas naves diferente no
+                              \nSantuário de Santa Luzia e na ESTG em Viana do Castelo,
+                               \npara poderes jogar com as diferentes naves tens de estar\n
+                                a um raio de 100 metros nos locais.
+
+    </string>
+</resources>
